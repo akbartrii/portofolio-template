@@ -1,0 +1,38 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Java
+target/
+build/
+.gradle/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# Node / TypeScript
+node_modules/
+dist/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
