@@ -12,6 +12,21 @@ refactor | test | docs | ci | chore | perf
 ```
 Keep commits small and focused. One logical change per commit.
 
+## Documentation
+Docs live under `docs/` grouped by category:
+
+```
+docs/
+  analysis/       testing, quality checklist
+  architecture/   overview, modules, workflows, API, data model, ADR
+  changelog/      CHANGELOG.md
+  operations/     runbook
+  product/        PRD, business rules, roadmap, design spec
+  prompts/        AI prompt log
+```
+
+Update `docs/README.md` and any linking document when adding or moving a doc.
+
 ## Pull Requests
 1. Open or link an issue.
 2. Create a branch from `main`.

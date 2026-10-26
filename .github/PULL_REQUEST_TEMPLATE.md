@@ -14,4 +14,4 @@ Closes #
 - [ ] No secrets, real personal data, or copyrighted assets added
 - [ ] `.env.example` updated if new config was added
 - [ ] README / API docs / ADR updated if behavior or architecture changed
-- [ ] CHANGELOG updated under `[Unreleased]`
+- [ ] `docs/changelog/CHANGELOG.md` updated under `[Unreleased]`
